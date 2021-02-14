@@ -143,7 +143,7 @@ searchBtn.addEventListener('click', function () {
 
 sliderBtn.addEventListener('click',function(){
   const timeDuration = document.getElementById('duration').value;
-  if(timeDuration<0){
+  if(timeDuration<=0){
     alert("Enter positve time !!!");
   }
   else{
